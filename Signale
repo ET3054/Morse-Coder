@@ -1,7 +1,11 @@
 Zur korrekten Eingabeverarbeitung müssen die Signale klar definiert sein. 
 
-Eingabe Kurz/Punkt: x ms
-Eingabe Lang/Strich: x ms
-Neuer Buchstabe/kurze Pause: x ms
-Neues Wort/lange Pause: x ms
-Löschen: x ms
+Da es sich bei den Benutzern um Laien handelt, wird mit einer Eingabegeschwindigkeit von ca. 5 "words per minute" (wpm) gerechnet.
+
+Eingabe Kurz/Punkt: 1 Zeiteinheit, definiert durch wpm auf ca. 200 ms
+Eingabe Lang/Strich: 3 Zeiteinheiten
+Neuer Buchstabe/kurze Pause: 1 Zeiteinheit
+Neues Wort/lange Pause: 7 Zeiteinheiten
+Löschen: 10 Zeiteinheiten
+
+Alternative Idee: Zu Beginn Eingabe von Punkt und Strich oder Testwort durch Benutzer, dadurch Berechnung von wpm und Anpassung der Zeiteinheiten. 
