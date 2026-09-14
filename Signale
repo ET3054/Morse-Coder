@@ -1,0 +1,7 @@
+Zur korrekten Eingabeverarbeitung müssen die Signale klar definiert sein. 
+
+Eingabe Kurz/Punkt: x ms
+Eingabe Lang/Strich: x ms
+Neuer Buchstabe/kurze Pause: x ms
+Neues Wort/lange Pause: x ms
+Löschen: x ms
