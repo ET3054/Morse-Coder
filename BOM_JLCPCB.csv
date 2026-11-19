@@ -1,0 +1,21 @@
+﻿Comment,Designator,Footprint,LCSC Part Number,Menge,Hinweis / Auswahlkriterium
+Summer_aktiv,BZ1,Buzzer_Beeper:Buzzer_12x9.5RM7.6,PRUEFEN,1,"Aktiver Summer 3.3V, THT RM7.6"
+100nF,"C1,C2,C3,C4,C8",Capacitor_SMD:C_0805_2012Metric,C49678,5,100nF 0805 X7R
+22pF,"C5,C6",Capacitor_SMD:C_0805_2012Metric,PRUEFEN,2,22pF 0805 C0G/NP0
+10uF,C7,Capacitor_SMD:C_0805_2012Metric,C15850,1,10uF 0805 MLCC
+LED_rot,D1,LED_SMD:LED_0805_2012Metric,PRUEFEN,1,LED 0805 rot
+Drehencoder_EC11,ENC1,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,PRUEFEN,1,Stiftleiste 1x05 RM2.54 fuer KY-040 / EC11 Modul
+USB_Micro-B,J1,Connector_USB:USB_Micro-B_Molex-105017-0001,PRUEFEN,1,"USB Micro-B Buchse SMD, Molex 105017-0001 kompatibel"
+SWD,J3,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,PRUEFEN,1,Stiftleiste 1x04 RM2.54 - ST-Link Anschluss
+BOOT0_Jumper,JP1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,PRUEFEN,1,Stiftleiste 1x02 RM2.54 - Jumper gesteckt = UART-Bootloader
+MMBT3904,Q1,Package_TO_SOT_SMD:SOT-23,PRUEFEN,1,"MMBT3904 SOT-23 (NPN), Pinfolge B/E/C"
+10k,"R1,R2,R3",Resistor_SMD:R_0805_2012Metric,C17414,3,10k 0805 1% (JLCPCB Basic)
+220,R4,Resistor_SMD:R_0805_2012Metric,PRUEFEN,1,220R 0805 1%
+1k,R5,Resistor_SMD:R_0805_2012Metric,PRUEFEN,1,1k 0805 1%
+Morsetaste,S1,Button_Switch_SMD:SW_SPST_TL3342,PRUEFEN,1,Taster SMD oder externe Morsetaste ueber Loetpad
+Reset,SW1,Button_Switch_SMD:SW_SPST_TL3342,PRUEFEN,1,Taster SMD 3.9x3.0mm
+STM32F103C8T6,U1,Package_QFP:LQFP-48_7x7mm_P0.5mm,C8734,1,verifiziert (LCSC/JLCPCB)
+CH340C,U2,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,C84681,1,"verifiziert (LCSC/JLCPCB), interner Takt - kein Quarz noetig"
+AMS1117-3.3,U3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C6186,1,verifiziert (LCSC/JLCPCB)
+LCD_I2C,U4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,PRUEFEN,1,Stiftleiste 1x04 RM2.54 fuer 16x2 LCD mit PCF8574-Backpack
+8MHz,Y1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,PRUEFEN,1,"8MHz SMD 3225 4-Pad, 20ppm"
